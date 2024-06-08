@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ecf2f5;
+  }
+  
+  .container {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #bde2fd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    background-color: #b0ddf3;
+  }
+  
+  h2 {
+    font-size: 2em;
+    color: #595959;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-left: 25px;
+  }
+  
+  li {
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+  
+  .offer-price {
+    font-size: 1.5em;
+    color: #f00;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0;
+    vertical-align: top;
+  }
+  
+  .original-price {
+    color: #ccc;
+    text-decoration: line-through;
+    margin-right: 5px;
+  }
+  
+  .discounted-price {
+    display: inline;
+  }
+  
+  .mo {
+    display: block;
+    font-size: 0.7em;
+    font-weight: normal;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .discount-countdown {
+    font-size: 1.25em;
+    color: #333;
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .label {
+    display: block;
+    margin-right: 10px;
+    color: #666;
+  }
+  
+  .numbers {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 35px;
+    color: #f00;
+    text-align: center;
+  }
+  
+  .unit {
+    display: inline-block;
+    font-size: 0.7em;
+    font-weight: bold;
+    width: 25px;
+    color: #666;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 3px;
+  }
+  
+  .seperator {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 5px;
+    color: #666;
+    text-align: center;
+  }
+  
+  .upgrade-button {
+    background-color: #f00;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.85em;
+    margin-top: 20px;
+  }
+  
+  .upgrade-button:hover {
+    background-color: #e00;
+  }
+  
+  .upgrade-button:active {
+    background-color: #d00;
+  }

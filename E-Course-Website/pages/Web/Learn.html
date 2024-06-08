@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Dashboard</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+    <div class="dashboard">
+        <aside class="sidebar">
+            <div>
+                <img src="./image/President_University_Logo.png" alt="President University Logo" class="sidebar-logo">
+                <span><b>President University <br> E-Course</b></span>
+            </div>
+            <br></br>
+            <div>
+                <nav class="course-nav">
+                    <a href="./Learn.html" class="nav-item">My Course</a>
+                    <a href="#" class="nav-item">Mentor Chat</a>
+                    <a href="#" class="nav-item">Certificate</a>
+                </nav>
+            </div>
+        </aside>
+        <main class="course-content">
+            <section class="accordion">
+                <div class="course-topics">
+                    <div class="topic">
+                        <div class="topic-header" onclick="toggleTopic('topic1-content')">
+                          <h3>Topic 1 - Introduction to Information System</h3>
+                          <span class="status complete">Finished</span>
+                        </div>
+                        <div id="topic1-content" class="topic-content">
+                          <a href="video1.html" class="topic-item">
+                            <span>Video</span>
+                            <span class="brief-info">Importance of Information Systems in modern organizations</span>
+                            <span class="status complete">Finished</span>
+                          </a>
+                          <a href="summary1.html" class="topic-item">
+                            <span>Summary</span>
+                            <span class="brief-info">Summary Introduction to Information System</span>
+                            <span class="status complete">Finished</span>
+                          </a>
+                          <a href="./Quiz.html" class="topic-item">
+                            <span>Quiz</span>
+                            <span class="brief-info">Basic Quiz of Information System</span>
+                            <span class="status complete">Finished</span>
+                          </a>
+                        </div>
+                    </div>
+
+                    <div class="topic">
+                      <div class="topic-header" onclick="toggleTopic('topic2-content')">
+                        <h3>Topic 2</h3>
+                        <span class="status incomplete">Not Finished</span>
+                      </div>
+                        <div id="topic2-content" class="topic-content" style="display: none;">
+                      </div>
+                    </div>
+                </div>                  
+            </section>
+        </main>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>

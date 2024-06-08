@@ -1,0 +1,83 @@
+.div {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  padding-bottom: 80px;
+  width: 500px;
+  height: 650px;
+  margin: auto;
+  box-shadow: 0px 8px 16px 0px rgba(10, 147, 158, 0.24);
+}
+.card-container {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+.div-2 {
+  font: 20px/120% Roboto Slab, sans-serif;
+  background-color: #293352;
+  max-width: 100%;
+  color: var(--puis-president-ac-id-12633333740234375-x-5413333129882812-default-nero, var(--jay, #fff));
+  text-align: center;
+  padding: 30px 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-3 {
+  display: flex;
+  margin-top: 32px;
+  width: 100%;
+  flex-direction: column;
+  color: var(
+    --puis-president-ac-id-12633333740234375-x-5413333129882812-default-black,
+    #000
+  );
+  padding: 0 39px;
+}
+.div-4 {
+  font: 700 40px/60% Roboto Slab, sans-serif;
+  padding-top: 40px;
+  margin: auto;
+  text-align: center;
+  padding-right: 90px;
+}
+.div-5 {
+  padding-top: 10px;
+  margin-top: 50px;
+  align-items: center;
+  font: bold;
+}
+p{
+  padding: 10px;
+  padding-right: 90px;
+  font: bold;
+  color: var(
+    --puis-president-ac-id-12633333740234375-x-5413333129882812-default-black,
+    #000
+  );
+  margin: auto;
+  text-align: center;
+}
+.div-20 {
+  background-color: #293352;
+  align-self: center;
+  padding-top: 300px;
+  width: 174px;
+  margin: auto;
+  max-width: 100%;
+  align-items: center;
+  color: var(--jay, #fff);
+  text-align: center;
+  justify-content: center;
+  padding: 22px 60px;
+  border-radius: 10px;
+  font: 20px/120% Roboto Slab, sans-serif;
+}

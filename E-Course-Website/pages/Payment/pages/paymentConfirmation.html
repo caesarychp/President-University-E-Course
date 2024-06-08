@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Confirmation</title>
+    <link rel="stylesheet" href="./css/paymentConfirmation.css">
+
+    <script>
+        function updateImage(event) {
+            const selectedBank = event.target.value;
+            let imageSrc = "../default-image.png";
+
+            if (selectedBank === "bni") {
+                imageSrc = "/bni.png";
+            }
+            else if (selectedBank === "bca") {
+                imageSrc = "bca.png";
+            }
+            else if (selectedBank === "bri") {
+                imageSrc = "bri.png";
+            }
+            else if (selectedBank === "bsi") {
+                imageSrc = "bsi.png";
+            }
+            else if (selectedBank === "mandiri") {
+                imageSrc = "mandiri.png";
+            }
+            else if (selectedBank === "mandirisyariah") {
+                imageSrc = "mandirisyariah.png";
+            }
+            
+            document.getElementById("card-image").src = imageSrc;
+        }
+    </script>
+</head>
+<body>
+    <h1>PAYMENT CONFIRMATION</h1>
+    <div class="frame1">
+        <div class="card-container">
+            <select class="card-select" onchange="updateImage(event)">
+                <option value="default">Select Bank</option>
+                <option value="bni">BNI</option>
+                <option value="bca">BCA</option>
+                <option value="bri">BRI</option>
+                <option value="bsi">BSI</option>
+                <option value="mandiri">Mandiri</option>
+                <option value="mandirisyariah">Mandiri Syariah</option>
+            </select>
+
+            <img class="card-image" id="card-image" src=" " alt="Bank Image">
+
+           
+                <label class="card-label" for="card-number">Nomor Kartu</label>
+                <input class="card-input" type="text" id="card-number" placeholder="Nomor Kartu" >
+                <label class="card-label" for="card-holder">Nama Pemilik Kartu</label>
+                <input class="card-input" type="text" id="card-holder" placeholder="Nama">
+
+                <div class="credit-card-inputs">
+                    <div>
+                    <label class="card-label" for="card-expiry">Tanggal Kadaluarsa</label>
+                    <input class="card-input" type="text" id="expiration-date" placeholder="Tanggal Kadaluarsa" />
+                    <div>
+                    <label class="card-label" for="card-expiry">CVV</label>
+                    <input class="card-input" type="text" id="cvv" placeholder="CVV" />
+                </div>
+        </div>
+    </div>
+    </div>
+    </div>
+                <div class="button">
+                    <button class="div-14">PAY</button>
+                </div>
+    
+    </div>
+    </div>
+   
+    <footer>
+        <div class="footer">
+            <img
+              loading="lazy"
+              class="img"
+              srcset="logoPU.png"
+            />
+            <div class="div-15">President University</div>
+            <div class="div-16">E-Course</div>
+            <div class="div-17">Accessibility</div>
+            <div class="div-18">Privacy Policy</div>
+            <div class="div-19">Terms of Use</div>
+            <div class="div-20">EEA Privacy Disclosures</div>
+          </div>
+    </footer>
+
+</body>
+</html>

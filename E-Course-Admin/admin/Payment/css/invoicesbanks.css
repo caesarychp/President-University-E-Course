@@ -1,0 +1,112 @@
+.div {
+    background-color: var(--jay, #fff);
+    display: flex;
+    max-width: 463px;
+    padding-bottom: 68px;
+    flex-direction: column;
+    font-weight: 400;
+  }
+  .div-2 {
+    align-items: start;
+    background-color: #293352;
+    width: 100%;
+    color: var(
+      --puis-president-ac-id-12633333740234375-x-5413333129882812-default-nero,
+      var(--jay, #fff)
+    );
+    white-space: nowrap;
+    justify-content: center;
+    padding: 26px 29px;
+    font: 20px/120% Roboto Slab, sans-serif;
+  }
+  .div-3 {
+    display: flex;
+    margin-top: 32px;
+    width: 100%;
+    flex-direction: column;
+    color: var(
+      --puis-president-ac-id-12633333740234375-x-5413333129882812-default-black,
+      #000
+    );
+    padding: 0 39px;
+  }
+  .div-4 {
+    font: 700 40px/60% Roboto Slab, sans-serif;
+  }
+  .div-5 {
+    margin-top: 38px;
+    font: 22px/109% Roboto Slab, sans-serif;
+  }
+  .div-6 {
+    margin-top: 8px;
+    font: 700 35px/69% Roboto Slab, sans-serif;
+  }
+  .div-7 {
+    display: flex;
+    margin-top: 45px;
+    gap: 20px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .div-8 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .div-9 {
+    font-family: Roboto Slab, sans-serif;
+  }
+  .div-10 {
+    font-family: Roboto Slab, sans-serif;
+    margin-top: 22px;
+  }
+  .div-11 {
+    font-family: Roboto Slab, sans-serif;
+    margin-top: 22px;
+  }
+  .div-12 {
+    font-family: Roboto Slab, sans-serif;
+    margin-top: 18px;
+  }
+  .div-13 {
+    font-family: Roboto Slab, sans-serif;
+    margin-top: 17px;
+  }
+  .div-14 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .div-15 {
+    font-family: Roboto Slab, sans-serif;
+  }
+  .div-16 {
+    font-family: Roboto Slab, sans-serif;
+    margin-top: 23px;
+  }
+  .div-17 {
+    font-family: Roboto Slab, sans-serif;
+    margin-top: 22px;
+  }
+  .div-18 {
+    font-family: Roboto Slab, sans-serif;
+    margin-top: 21px;
+  }
+  .div-19 {
+    font-family: Roboto Slab, sans-serif;
+    margin-top: 21px;
+  }
+  .div-20 {
+    background-color: #293352;
+    align-self: center;
+    margin-top: 107px;
+    width: 174px;
+    max-width: 100%;
+    align-items: center;
+    color: var(--jay, #fff);
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+    padding: 22px 60px;
+    font: 20px/120% Roboto Slab, sans-serif;
+  }
