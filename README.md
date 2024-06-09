@@ -10,7 +10,6 @@ Welcome to the President University E-Course project! This repository contains t
 - [Usage](#usage)
 - [Database Setup](#database-setup)
 - [Folder Structure](#folder-structure)
-- [Screenshots](#screenshots)
 
 ## Project Description
 
