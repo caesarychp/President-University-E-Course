@@ -55,7 +55,7 @@ With the increasing demand for online education, it is crucial to have a platfor
 - **Product Listing**: Manage and list company assets (products) to maintain accurate inventory records.
 - **Raw Material Listing**: Manage and list company assets (raw materials) to ensure efficient procurement and inventory management.
 
-## Technologies Used
+## Technologies Stack
 
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap
 - **Backend**: PHP
