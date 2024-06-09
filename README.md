@@ -7,7 +7,6 @@ Welcome to the President University E-Course project! This repository contains t
 - [Project Description](#project-description)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Usage](#usage)
 - [Database Setup](#database-setup)
 - [Folder Structure](#folder-structure)
 
@@ -61,12 +60,6 @@ With the increasing demand for online education, it is crucial to have a platfor
 - **Backend**: PHP
 - **Database**: MySQL, phpMyAdmin
 - **Version Control**: Git, GitHub
-
-## Usage
-
-1. Open your browser and navigate to `http://localhost:8080`.
-2. Register a new account or log in with existing credentials.
-3. Explore the features, manage courses, sales, procurement, and track accounting information.
 
 ## Database Setup
 
