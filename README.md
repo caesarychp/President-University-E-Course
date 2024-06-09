@@ -1,6 +1,6 @@
 # President University E-Course
 
-Welcome to the President University E-Course project! This repository contains the code and documentation for an innovative e-course platform developed to facilitate online learning and comprehensive educational management at President University. Our mission is to provide a seamless and intuitive platform that enhances the educational experience for students through efficient course management, streamlined procurement processes, and robust administrative functionalities.
+Welcome to the President University E-Course project! This repository contains the code and documentation for an innovative e-course platform developed to facilitate online learning and comprehensive educational management at President University. The mission is to provide a seamless and intuitive platform that enhances the educational experience for students through efficient course management, streamlined procurement processes, and robust administrative functionalities.
 
 ## Table of Contents
 
