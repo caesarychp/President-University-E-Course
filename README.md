@@ -57,7 +57,7 @@ With the increasing demand for online education, it is crucial to have a platfor
 
 ## Technologies Stack
 
-- **Frontend**: HTML, CSS, JavaScript, Bootstrap
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap, Tailwind
 - **Backend**: PHP
 - **Database**: MySQL, phpMyAdmin
 - **Version Control**: Git, GitHub
